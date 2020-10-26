@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+div.stage {
+  display: flex;
+  flex-direction: row;
+}
+div.board {
+  display: block;
+  flex-grow: 2;
+  position: relative;
+  height: 400px;
+}
+div.control {
+  display: block;
+  flex-grow: 1;
+  position: relative;
+  height: 400px;
+}
+
+div.control input {
+  width: 100%;
+}
